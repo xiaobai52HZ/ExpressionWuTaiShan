@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tayuansi"
+        android:title="塔院寺"/>
+    <item
+        android:id="@+id/xiantongsi"
+        android:title="显通寺"/>
+    <item android:title="菩萨顶"/>
+    <item android:title="碧山寺"/>
+    <item android:title="罗睺寺"/>
+</menu>

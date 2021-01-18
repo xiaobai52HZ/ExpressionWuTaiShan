@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/xian_tong_si"
+    android:id="@+id/drawer_layout"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.wutai.wutaimoutain.navigation.NavigationHomeActivity">
+  <AbsoluteLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <!--<com.getbase.floatingactionbutton.FloatingActionsMenu-->
+    <!--android:id="@+id/multiple_actions"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--fab:fab_addButtonColorNormal="#00fff2"-->
+    <!--fab:fab_addButtonColorPressed="@color/white_pressed"-->
+    <!--fab:fab_addButtonPlusIconColor="@color/half_black"-->
+    <!--fab:fab_addButtonSize="normal"-->
+    <!--fab:fab_labelsPosition="left"-->
+    <!--fab:fab_labelStyle="@drawable/fab_label_background"-->
+    <!--android:layout_marginBottom="16dp"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:layout_marginEnd="16dp">-->
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_grid"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--fab:fab_colorNormal="#00fff2"-->
+    <!--fab:fab_icon="@mipmap/narrate"-->
+    <!--fab:fab_colorPressed="@color/white_pressed"-->
+    <!--fab:fab_size="normal"-->
+    <!--fab:fab_title="语音导航"-->
+    <!--/>-->
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_list"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--fab:fab_colorNormal="#00fff2"-->
+    <!--fab:fab_icon="@mipmap/scenic_desc"-->
+    <!--fab:fab_colorPressed="#00fff2"-->
+    <!--fab:fab_title="寺庙简介"-->
+    <!--fab:fab_size="normal"-->
+    <!--/>-->
+    <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--android:id="@+id/action_staggle"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--fab:fab_colorNormal="#00fff2"-->
+    <!--fab:fab_icon="@mipmap/back_navigation_home"-->
+    <!--fab:fab_colorPressed="#00fff2"-->
+    <!--fab:fab_title="返回景点列表"-->
+    <!--fab:fab_size="normal"-->
+    <!--/>-->
+    <!--</com.getbase.floatingactionbutton.FloatingActionsMenu>-->
+
+    <ImageButton
+        android:id="@+id/wu_liang_dian"
+        style="?borderlessButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="82dp"
+        android:layout_y="101dp"
+        android:src="@mipmap/narrate"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/da_xiong_bao_dian"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="84dp"
+        android:layout_y="224dp"
+        style="?borderlessButtonStyle"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/da_wen_shu_dian"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_x="95dp"
+        android:layout_y="372dp"
+        style="?borderlessButtonStyle"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <Button
+        android:id="@+id/guan_yin_dian"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_x="104dp"
+        android:layout_y="514dp"
+        style="?borderlessButtonStyle"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:id="@+id/title"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:layout_x="210dp"
+        android:layout_y="25dp"
+        android:gravity="center"
+        android:text="显通寺"
+        android:textColor="@color/zhuhong"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="161dp" />
+    <!--<android.support.v4.widget.DrawerLayout-->
+    <!--android:id="@+id/drawer_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<ImageView-->
+    <!--android:src="@mipmap/xian_tong_si"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<TextView-->
+    <!--android:text="这里是五台山哇让我若挖人安慰人"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v4.widget.DrawerLayout>-->
+  </AbsoluteLayout>
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_gravity = "left"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:background="@color/transparency"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/narrate"
+        />
+    <TextView
+        android:textIsSelectable="true"
+        android:id="@+id/voice_content"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+  </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
+
